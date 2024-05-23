@@ -29,7 +29,7 @@ const persone01 = [
 2. all'interno della funzione anonima di .map, definisco una variabile info contenente la stringa 'può guidare'
 3. verifico la proprietà eta dell'oggetto iterato. se < 18, il valore di info diventa 'non può guidare'
 4. creo un nuovo oggetto newObj nel quale copio le proprietà dell'oggetto iterato con il metodo spread e aggingo la proprietà info, che ha valore della variabile info
-5. ritorno il nuvo oggetto
+5. ritorno il nuovo oggetto
 
 persone02 è un nuovo array con lunghezza pari all'array di origine (persone01), contenente tutti i newObj ai quali è stata aggiunta la proprietà info
 */
@@ -49,6 +49,6 @@ const persone02 = persone01.map(function (persona, index, array) {
 }
 )
 
-//stampo entrambe gli array per verificare che siano effettivamente differenti
+//stampo entrambi gli array per verificare che siano effettivamente differenti
 console.log(persone02)
 console.log(persone01)
