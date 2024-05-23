@@ -51,7 +51,7 @@ console.log(persone02)
 NOTA: Questo sistema non funzione perchè il ciclo aggiunge la proprietà info all'oggetto originale, 
 quindi stampando persona01 si ottiene lo stesso risultato che stampando persona02.
 Anche creando una nuova variabile newObj ed assegnandole persone01[i] il risultato sarebbe lo stesso, perchè il riferimento sarebbe sempre lo stesso oggetto.
-la soluzione ottimale spread creare un nuovo oggetto newObj ed utilizzare il metodo spread
+la soluzione ottimale sarebbe creare un nuovo oggetto 'newObj' ed utilizzare il metodo spread per copiare le proprietà dell'oggetto iterato
 
 newObj = {
     ...persone01[i]
