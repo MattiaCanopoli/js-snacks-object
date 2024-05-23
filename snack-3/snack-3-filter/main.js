@@ -39,13 +39,13 @@ const animali = [
 3. se vero, ritorno l'oggetto iterato, che verrà aggiunto all'array mammiferi
 */
 
-
-// const mammiferi = animali.filter(function (animale) {
-//     if (animale.classe === 'mammiferi') {
-//         return animale
-//     }
-// })
-
+/*
+const mammiferi = animali.filter(function (animale) {
+    if (animale.classe === 'mammiferi') {
+        return animale
+    }
+})
+*/
 
 /*SOLUZIUONE BREVE
 1.assegno alla variabile mammiferi il metodo filter dell'array animali
